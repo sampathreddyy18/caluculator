@@ -89,7 +89,7 @@ for b in buttons: #iterates through each button label
         height =2,
         bg = "#ff9500" if b in "+_*/" else "#d44b4b",
         #operator buttons are orange, number buttons are gray
-        fg = "black",
+        fg = "red",
         bd = 0,
         ).grid(row=r, column = c, padx=6 , pady=6)
     
@@ -116,4 +116,5 @@ for b in buttons: #iterates through each button label
 
 #Event loop
 root.mainloop()
+
 '''Keeps the window running listens for users '''
